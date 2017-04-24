@@ -1,4 +1,4 @@
-body, ul, img, .main, .footer {
+body, ul, img, .main, .footer, .contact {
   margin:0 auto;
 
 }
@@ -32,16 +32,18 @@ a {
 }
 p {
   text-align: center;
-  color: white;
+  color: black;
 }
 
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width: inherit;
+	margin: 1%;
+	align-self: center;
 }
 
-td,th {
+td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
@@ -53,6 +55,8 @@ img {
     height: auto;
 
 }
+
+/* -------------------------------- Classes -------------------------------------------- */
 
 .title {
   white-space: nowrap;
@@ -68,9 +72,8 @@ img {
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #0085ff;
 }
-
 
 .main {
     width: 90%;
@@ -78,10 +81,25 @@ img {
     overflow: auto;
 }
 
+.container {
+  text-align: center;
+  padding: 1% 2%;
+}
+
 .ofertas {
   margin: 2%;
   width: 29%;
   float: left;
+}
+
+.ofertas, .main {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact {
+	width: 320px;
+	padding: 1%;
 }
 
 .footer {
@@ -92,20 +110,11 @@ img {
   background-color: #333;
 }
 
-----------------------------------MainContainer------------------------------
-
-.container {
-  text-align: center;
-  padding: 10px 20px;
+p .footer {					/* Fijarse por que no anda */
+	color: white;
 }
 
-.ofertas, .main {
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-}
-
----------------------------------------NavBar------------------------------
+/* --------------------------------- NavBar_Style ------------------------------- */
 
 li a:hover:not(.active) {
     background-color: #111;
@@ -119,4 +128,26 @@ li a {
     text-decoration: none;
 }
 
-----------------------------------------
+/* -------------------------- Contact_Style ------------------------------------ */
+
+contact-form label {
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+	border: solid 2px #353535;
+	outline: none;
+	font-size: 18px;
+	padding: 10px;
+	margin: 0 0 10px;
+	width: 300px;
+}
+
+.contact-form textarea {
+	resize: vertical;
+	height: 120px;
+}
