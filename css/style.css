@@ -1,3 +1,8 @@
+body {                      /* Verificar si funciona */
+  min-width: 700px;
+  min-height: 700px;
+}
+
 body, ul, img, .main, .footer, .contact {
   margin:0 auto;
 
@@ -81,8 +86,22 @@ img {
     overflow: auto;
 }
 
+.right , .center , .left {
+  float: left;
+  width: 31%;
+  margin: 1%;
+}
+
 .container {
   text-align: center;
+}
+
+.experiencias{
+  width: 90%;
+  margin: 1%;
+  margin-top: 10px;
+  padding: 1%;
+  padding-bottom: 1%;
 }
 
 .ofertas {
@@ -91,7 +110,7 @@ img {
   float: left;
 }
 
-.ofertas, .main {
+.ofertas, .main, .experiencias {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
