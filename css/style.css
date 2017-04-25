@@ -55,9 +55,8 @@ p {
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: inherit;
+    width: 97%;
 	margin: 1%;
-	align-self: center;
 }
 
 td, th {
@@ -130,6 +129,14 @@ img {
 .contact {
 	width: 320px;
 	padding: 1%;
+}
+
+.paquetes {
+    margin: 2%;
+}
+
+.disclaimer {
+    font-size: 9px;
 }
 
 .footer {
