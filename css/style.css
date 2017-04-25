@@ -87,6 +87,10 @@ img {
   text-transform: uppercase;
 }
 
+.subtitle {
+    font-size: 25px;
+}
+
 .active {
     background-color: #0085ff;
 }
@@ -101,25 +105,22 @@ img {
   float: left;
   width: 31%;
   margin: 1%;
+    margin-right: 5px;
 }
 
 .container {
   text-align: center;
 }
 
-.experiencias{
+.experiencias , .ofertas{
   width: 90%;
-  margin: 1%;
+  margin: 2%;
   margin-top: 10px;
   padding: 1%;
   padding-bottom: 1%;
 }
 
-.ofertas {
-  margin: 2%;
-  width: 29%;
-  float: left;
-}
+
 
 .ofertas, .main, .experiencias {
   background-color: white;
