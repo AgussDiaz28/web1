@@ -16,7 +16,7 @@ ol {
     list-style-type: none;
     overflow: hidden;
     padding: inherit;
-    
+
 }
 
 ol li {
@@ -89,6 +89,7 @@ img {
 
 .subtitle {
     font-size: 25px;
+    color: #111;
 }
 
 .active {
@@ -108,7 +109,11 @@ img {
     margin-right: 5px;
 }
 
-.container {
+.destinos{
+  padding-left: 30px;
+}
+
+.container,  {
   text-align: center;
 }
 
