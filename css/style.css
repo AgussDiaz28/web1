@@ -14,14 +14,13 @@ h1,h2 {
 
 ol {
     list-style-type: none;
-    overflow: hidden;
     padding: inherit;
 
 }
 
 ol li {
     float: none;
-    padding: inherit;
+    padding: none;
 }
 
 ul {
@@ -113,7 +112,7 @@ img {
   padding-left: 30px;
 }
 
-.container,  {
+.container  {
   text-align: center;
 }
 
